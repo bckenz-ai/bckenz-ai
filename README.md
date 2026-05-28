@@ -24,6 +24,16 @@ Data-driven professional pursuing a B.S. in Data Science and Analytics at the Un
 
 ## Projects
 
+### [Machine Learning Projects](https://github.com/bckenz-ai/machine-learning-projects)
+> A collection of applied machine learning notebooks covering supervised learning, unsupervised learning, NLP, and model diagnostics — with real-world Philippine and international datasets.
+
+- Covers ensemble methods (Random Forest, AdaBoost, Gradient Boosting), regularization, dimensionality reduction (PCA, t-SNE, UMAP), class imbalance handling, and NLP (sentiment analysis, text clustering, topic modeling)
+- Applied to datasets including Telco Churn, IMDB reviews, 2022 Philippine election results, and U.S. Census income data
+- Gradient Boosting achieves 88% accuracy on income classification; boosting ensembles outperform logistic regression baselines at 86%+
+- Stack: `Python` `Scikit-learn` `NLTK` `spaCy` `Pandas` `Matplotlib` `Seaborn`
+
+---
+
 ### [Forex Dashboard](https://github.com/Forex-DataViz/forex-dashboard)
 > An automated, multi-source foreign exchange data pipeline and interactive visualization dashboard built for the Philippine market.
 
@@ -34,7 +44,7 @@ Data-driven professional pursuing a B.S. in Data Science and Analytics at the Un
 
 ---
 
-### [Internship Operations Toolkit](https://github.com/bckenz-ai/internship-ops-toolkit)
+### [Internship Operations Toolkit](https://github.com/your-username/internship-ops-toolkit)
 > A suite of Google Apps Script automations built during a finance internship at Parallel Dimensions Inc. to support event operations and financial workflows.
 
 - **AUTOCOMPUTE** — Batch payroll/commission calculator; iterates through a host roster, feeds each name into a formula-driven calculator cell, captures the computed output, and writes all results back in a single pass. Triggered via a checkbox acting as a run button
@@ -47,7 +57,7 @@ Data-driven professional pursuing a B.S. in Data Science and Analytics at the Un
 ## Skills
 
 **Data & Analytics**
-`Python` `SQL` `Pandas` `Data Visualization` `Technical & Fundamental Analysis` `Consumer Analytics`
+`Python` `SQL` `Pandas` `Scikit-learn` `NLTK` `spaCy` `Data Visualization` `Technical & Fundamental Analysis` `Consumer Analytics`
 
 **Finance & Operations**
 `Budgeting & Forecasting` `Financial Recordkeeping` `Expense Tracking` `Cash Flow Management`
