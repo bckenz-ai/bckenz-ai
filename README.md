@@ -18,19 +18,29 @@
 
 ## About
 
-Data-driven professional pursuing a B.S. in Data Science and Analytics at the University of Santo Tomas (Dean's Lister, GWA 1.469). My background sits at the intersection of data, finance, and operations, with hands-on experience ranging from building SQL/PHP databases in a corporate internship to developing an automated forex data pipeline and visualization dashboard. I approach every problem with a bias toward analytical rigor, clear communication, and practical execution.
+Data-driven professional pursuing a B.S. in Data Science and Analytics at the University of Santo Tomas (Dean's Lister, GWA 1.469). My background sits at the intersection of data, finance, and operations — with hands-on experience ranging from building SQL/PHP databases and Google Apps Script automations in a corporate internship to developing an automated forex data pipeline and visualization dashboard. I approach every problem with a bias toward analytical rigor, clear communication, and practical execution.
 
 ---
 
-## Featured Project
+## Projects
 
 ### [Forex Dashboard](https://github.com/Forex-DataViz/forex-dashboard)
 > An automated, multi-source foreign exchange data pipeline and interactive visualization dashboard built for the Philippine market.
 
 - Aggregates daily USD-PHP exchange rates, macroeconomic indicators (GDP, FDI, inflation), oil prices, and central bank policy rates from five APIs and data sources (Frankfurter, World Bank, EIA, FRED, BSP)
 - Automated via GitHub Actions on a weekday schedule (6:00 PM Manila time), committing updated datasets directly to the repository
-- Interactive Streamlit dashboard deployed at: [forex-dashboard-carolino-favorada-lavado-punzalan-yutuc.streamlit.app](https://forex-dashboard-carolino-favorada-lavado-punzalan-yutuc.streamlit.app)
+- Interactive Streamlit dashboard: [forex-dashboard-carolino-favorada-lavado-punzalan-yutuc.streamlit.app](https://forex-dashboard-carolino-favorada-lavado-punzalan-yutuc.streamlit.app)
 - Stack: `Python` `Pandas` `Streamlit` `GitHub Actions` `Google Sheets API`
+
+---
+
+### [Internship Operations Toolkit](https://github.com/your-username/internship-ops-toolkit)
+> A suite of Google Apps Script automations built during a finance internship at Parallel Dimensions Inc. to support event operations and financial workflows.
+
+- **AUTOCOMPUTE** — Batch payroll/commission calculator; iterates through a host roster, feeds each name into a formula-driven calculator cell, captures the computed output, and writes all results back in a single pass. Triggered via a checkbox acting as a run button
+- **INVITE COUNT** — Baseline-and-delta reporting tool for nightlife event hosts; saves a snapshot of live invite counts, then generates a formatted 3PM/9PM report split by eligibility threshold (5+ invites), with per-host deltas and a copyable modal output
+- **GUESTLIST** — Guest registration pipeline; ingests raw Google Form submissions, reorganizes entries by ticket tier, auto-generates a clean formatted report sheet with per-tier counts, and syncs payment verification edits back to the source database in real time
+- Stack: `Google Apps Script` `Google Sheets API` `JavaScript`
 
 ---
 
@@ -43,7 +53,7 @@ Data-driven professional pursuing a B.S. in Data Science and Analytics at the Un
 `Budgeting & Forecasting` `Financial Recordkeeping` `Expense Tracking` `Cash Flow Management`
 
 **Development**
-`PHP` `GitHub Actions` `Streamlit` `REST APIs` `Google Sheets API`
+`PHP` `Google Apps Script` `JavaScript` `GitHub Actions` `Streamlit` `REST APIs` `Google Sheets API`
 
 **Leadership & Management**
 `Team Management` `Task Delegation` `Performance Monitoring` `Strategic Planning`
@@ -53,7 +63,7 @@ Data-driven professional pursuing a B.S. in Data Science and Analytics at the Un
 ## Experience
 
 **Finance Intern** — Parallel Dimensions Inc., Makati *(Dec 2025 – May 2026)*
-Built a full-featured staff database using SQL and PHP; managed budgeting, expense tracking, and real-time financial operations for large-scale events.
+Built a full-featured staff database using SQL and PHP; developed internal Google Apps Script automations for payroll computation, event invite tracking, and guest registration management; supported budgeting, expense tracking, and real-time financial operations for large-scale nightlife events.
 
 **Foreign Exchange Trader** — Independent *(Jun 2024 – Aug 2025)*
 Executed live currency trades using technical and fundamental analysis; maintained a 52% win ratio with detailed trade logging and strategy refinement.
