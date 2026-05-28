@@ -18,7 +18,7 @@
 
 ## About
 
-Data-driven professional pursuing a B.S. in Data Science and Analytics at the University of Santo Tomas (Dean's Lister, GWA 1.469). My background sits at the intersection of data, finance, and operations — with hands-on experience ranging from building SQL/PHP databases in a corporate internship to developing an automated forex data pipeline and visualization dashboard. I approach every problem with a bias toward analytical rigor, clear communication, and practical execution.
+Data-driven professional pursuing a B.S. in Data Science and Analytics at the University of Santo Tomas (Dean's Lister, GWA 1.469). My background sits at the intersection of data, finance, and operations, with hands-on experience ranging from building SQL/PHP databases in a corporate internship to developing an automated forex data pipeline and visualization dashboard. I approach every problem with a bias toward analytical rigor, clear communication, and practical execution.
 
 ---
 
