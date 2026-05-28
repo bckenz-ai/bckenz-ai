@@ -105,5 +105,5 @@ GWA: 95.00 | High Honours | Award for Research and Innovation
 
 <p align="center">
   <a href="https://linkedin.com/in/kenzo-carolino">LinkedIn</a> &nbsp;&middot;&nbsp;
-  <a href="bc.kenz@gmail.com">Email</a>
+  <a href="mailto:bc.kenz@gmail.com">Email</a>
 </p>
