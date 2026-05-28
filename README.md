@@ -57,7 +57,7 @@ Data-driven professional pursuing a B.S. in Data Science and Analytics at the Un
 ## Skills
 
 **Data & Analytics**
-`Python` `SQL` `Pandas` `Scikit-learn` `NLTK` `spaCy` `Data Visualization` `Technical & Fundamental Analysis` `Consumer Analytics`
+`Python` `SQL` `R` `Tableau` `SPSS` `Pandas` `Scikit-learn` `NLTK` `spaCy` `Data Visualization` `Technical & Fundamental Analysis` `Consumer Analytics`
 
 **Finance & Operations**
 `Budgeting & Forecasting` `Financial Recordkeeping` `Expense Tracking` `Cash Flow Management`
