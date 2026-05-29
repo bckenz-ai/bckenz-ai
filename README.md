@@ -23,13 +23,12 @@ Data-driven professional pursuing a B.S. in Data Science and Analytics at the Un
 ## Projects
 
 ### [Algorithmic Strategy Backtester](https://github.com/bckenz-ai/algorithmic-strategy-backtester)
-> A from-scratch backtesting engine for quantitative trading strategies, built to evaluate signal quality with institutional-grade rigor and transaction cost realism.
+> A from-scratch backtesting engine for quantitative trading strategies, built to evaluate signal quality with institutional-grade rigor and honest, unsparing performance analysis.
 
-- Implements a 50/200-day SMA crossover strategy on EUR/USD (2020–2026), with a long-only signal generated when the fast SMA crosses above the slow SMA
-- Uses log returns throughout for mathematically consistent compounding; applies `.shift(1)` to all position columns to eliminate look-ahead bias
-- Computes a full performance report: Total Return, annualized Sharpe Ratio (benchmarked against the ECB Euro Short-Term Rate), Maximum Drawdown, Win Rate, and total trade count
-- Plots strategy equity curve against a buy-and-hold benchmark for direct visual comparison
-- Incorporates transaction cost friction (0.1% per trade entry/exit) to produce realistic, slippage-aware results
+- Implements a 50/200-day SMA crossover strategy on EUR/USD (2020–2026); long-only signal generated on golden cross, flat on death cross
+- Uses log returns throughout and applies `.shift(1)` to all position columns to eliminate look-ahead bias; transaction costs of 0.1% per trade deducted at entry/exit
+- Computes a full performance tearsheet: Total Return, annualized Sharpe Ratio (vs. ECB Euro Short-Term Rate), Maximum Drawdown, Win Rate, and trade count — with written interpretation of each metric
+- Concludes that the strategy underperforms buy-and-hold on choppy, range-bound EUR/USD due to whipsaw conditions; contextualizes results against institutional thresholds (e.g., 10–20% MDD limits, 30-trade statistical minimums)
 - Stack: `Python` `yfinance` `Pandas` `NumPy` `Matplotlib` `Backtrader`
 
 ---
