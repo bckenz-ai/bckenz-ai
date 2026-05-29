@@ -54,7 +54,7 @@ Data-driven professional pursuing a B.S. in Data Science and Analytics at the Un
 
 ---
 
-### [Internship Operations Toolkit](https://github.com/your-username/internship-ops-toolkit)
+### [Internship Operations Toolkit](https://github.com/bckenz.ai/internship-ops-toolkit)
 > A suite of Google Apps Script automations built during a finance internship at Parallel Dimensions Inc. to support event operations and financial workflows.
 
 - **AUTOCOMPUTE** — Batch payroll/commission calculator; iterates through a host roster, feeds each name into a formula-driven calculator cell, captures the computed output, and writes all results back in a single pass. Triggered via a checkbox acting as a run button
