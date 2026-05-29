@@ -44,12 +44,11 @@ Data-driven professional pursuing a B.S. in Data Science and Analytics at the Un
 
 ---
 
-### [Forex Dashboard](https://github.com/Forex-DataViz/forex-dashboard)
+### [Forex Dashboard](https://github.com/Forex-DataViz/forex-dashboard) &nbsp;·&nbsp; [Live App](https://forex-dashboard-carolino-favorada-lavado-punzalan-yutuc.streamlit.app)
 > An automated, multi-source foreign exchange data pipeline and interactive visualization dashboard built for the Philippine market.
 
 - Aggregates daily USD-PHP exchange rates, macroeconomic indicators (GDP, FDI, inflation), oil prices, and central bank policy rates from five APIs and data sources (Frankfurter, World Bank, EIA, FRED, BSP)
 - Automated via GitHub Actions on a weekday schedule (6:00 PM Manila time), committing updated datasets directly to the repository
-- Interactive Streamlit dashboard: [forex-dashboard-carolino-favorada-lavado-punzalan-yutuc.streamlit.app](https://forex-dashboard-carolino-favorada-lavado-punzalan-yutuc.streamlit.app)
 - Stack: `Python` `Pandas` `Streamlit` `GitHub Actions` `Google Sheets API`
 
 ---
