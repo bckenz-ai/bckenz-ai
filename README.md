@@ -18,7 +18,7 @@
 
 ## About
 
-Data-driven professional pursuing a B.S. in Data Science and Analytics at the University of Santo Tomas (Dean's Lister, GWA 1.469). My background sits at the intersection of data, finance, and operations — with hands-on experience ranging from building SQL/PHP databases and Google Apps Script automations in a corporate internship to developing an automated forex data pipeline and visualization dashboard. I approach every problem with a bias toward analytical rigor, clear communication, and practical execution.
+Data-driven professional pursuing a B.S. in Data Science and Analytics at the University of Santo Tomas (Dean's Lister, GWA 1.469). My background sits at the intersection of data, finance, and operations, with hands-on experience ranging from building SQL/PHP databases and Google Apps Script automations in a corporate internship to developing an automated forex data pipeline and visualization dashboard. I approach every problem with a bias toward analytical rigor, clear communication, and practical execution.
 
 ---
 
@@ -31,6 +31,16 @@ Data-driven professional pursuing a B.S. in Data Science and Analytics at the Un
 - Applied to datasets including Telco Churn, IMDB reviews, 2022 Philippine election results, and U.S. Census income data
 - Gradient Boosting achieves 88% accuracy on income classification; boosting ensembles outperform logistic regression baselines at 86%+
 - Stack: `Python` `Scikit-learn` `NLTK` `spaCy` `Pandas` `Matplotlib` `Seaborn`
+
+---
+
+### [Stock Portfolio Risk Dashboard](https://github.com/bckenz-ai/stock-portfolio-risk-dashboard) &nbsp;·&nbsp; [Live App](https://stock-portfolio-risk-dashboard-2amfedsadxghp7h3ht2ejb.streamlit.app/)
+> An interactive Streamlit dashboard that computes institutional-grade risk metrics for any user-defined stock portfolio using live market data.
+
+- Computes Sharpe Ratio (annualized, BSP risk-free rate), Maximum Drawdown, and historical Value at Risk at 95% and 99% confidence for any set of tickers and date range
+- Uses log returns throughout for mathematically consistent annualization, consistent with practitioner convention
+- Sidebar-driven inputs (tickers, date range, risk-free rate) with `@st.cache_data` to prevent redundant API calls on re-renders
+- Stack: `Python` `yfinance` `Pandas` `NumPy` `Streamlit`
 
 ---
 
@@ -57,7 +67,7 @@ Data-driven professional pursuing a B.S. in Data Science and Analytics at the Un
 ## Skills
 
 **Data & Analytics**
-`Python` `SQL` `R` `Tableau` `SPSS` `Pandas` `Scikit-learn` `NLTK` `spaCy` `Data Visualization` `Technical & Fundamental Analysis` `Consumer Analytics`
+`Python` `SQL` `Pandas` `Scikit-learn` `NLTK` `spaCy` `Data Visualization` `Technical & Fundamental Analysis` `Consumer Analytics`
 
 **Finance & Operations**
 `Budgeting & Forecasting` `Financial Recordkeeping` `Expense Tracking` `Cash Flow Management`
