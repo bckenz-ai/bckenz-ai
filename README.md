@@ -23,7 +23,7 @@ Data-driven professional pursuing a B.S. in Data Science and Analytics at the Un
 ## Projects
 
 ### [Algorithmic Strategy Backtester](https://github.com/bckenz-ai/algorithmic-strategy-backtester)
-> A from-scratch backtesting engine for quantitative trading strategies, built to evaluate signal quality with institutional-grade rigor and honest, unsparing performance analysis.
+> A from-scratch backtesting engine for a 50/200-day SMA crossover strategy on EUR/USD. Built for signal transparency, look-ahead bias prevention, and honest performance analysis.
 
 - Implements a 50/200-day SMA crossover strategy on EUR/USD (2020–2026); long-only signal generated on golden cross, flat on death cross
 - Uses log returns throughout and applies `.shift(1)` to all position columns to eliminate look-ahead bias; transaction costs of 0.1% per trade deducted at entry/exit
