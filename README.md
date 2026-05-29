@@ -1,9 +1,7 @@
 <h1 align="center">Bryant Kenzo P. Carolino</h1>
-
 <p align="center">
   <em>B.S. Data Science and Analytics &nbsp;|&nbsp; University of Santo Tomas, Manila</em>
 </p>
-
 <p align="center">
   <a href="https://linkedin.com/in/kenzo-carolino">
     <img src="https://img.shields.io/badge/LinkedIn-kenzo--carolino-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
@@ -23,6 +21,18 @@ Data-driven professional pursuing a B.S. in Data Science and Analytics at the Un
 ---
 
 ## Projects
+
+### [Algorithmic Strategy Backtester](https://github.com/bckenz-ai/algorithmic-strategy-backtester)
+> A from-scratch backtesting engine for quantitative trading strategies, built to evaluate signal quality with institutional-grade rigor and transaction cost realism.
+
+- Implements a 50/200-day SMA crossover strategy on EUR/USD (2020–2026), with a long-only signal generated when the fast SMA crosses above the slow SMA
+- Uses log returns throughout for mathematically consistent compounding; applies `.shift(1)` to all position columns to eliminate look-ahead bias
+- Computes a full performance report: Total Return, annualized Sharpe Ratio (benchmarked against the ECB Euro Short-Term Rate), Maximum Drawdown, Win Rate, and total trade count
+- Plots strategy equity curve against a buy-and-hold benchmark for direct visual comparison
+- Incorporates transaction cost friction (0.1% per trade entry/exit) to produce realistic, slippage-aware results
+- Stack: `Python` `yfinance` `Pandas` `NumPy` `Matplotlib` `Backtrader`
+
+---
 
 ### [Machine Learning Projects](https://github.com/bckenz-ai/machine-learning-projects)
 > A collection of applied machine learning notebooks covering supervised learning, unsupervised learning, NLP, and model diagnostics — with real-world Philippine and international datasets.
@@ -69,10 +79,10 @@ Data-driven professional pursuing a B.S. in Data Science and Analytics at the Un
 `Python` `SQL` `Pandas` `Scikit-learn` `NLTK` `spaCy` `Data Visualization` `Technical & Fundamental Analysis` `Consumer Analytics`
 
 **Finance & Operations**
-`Budgeting & Forecasting` `Financial Recordkeeping` `Expense Tracking` `Cash Flow Management`
+`Budgeting & Forecasting` `Financial Recordkeeping` `Expense Tracking` `Cash Flow Management` `Quantitative Strategy Development` `Backtesting`
 
 **Development**
-`PHP` `Google Apps Script` `JavaScript` `GitHub Actions` `Streamlit` `REST APIs` `Google Sheets API`
+`PHP` `Google Apps Script` `JavaScript` `GitHub Actions` `Streamlit` `REST APIs` `Google Sheets API` `Backtrader`
 
 **Leadership & Management**
 `Team Management` `Task Delegation` `Performance Monitoring` `Strategic Planning`
