@@ -22,6 +22,18 @@ Data-driven professional pursuing a B.S. in Data Science and Analytics at the Un
 
 ## Projects
 
+### [Credit Risk Scorecard](https://github.com/bckenz-ai/credit-risk-scorecard)
+> An end-to-end credit risk scorecard built on the Home Credit Default Risk dataset. Covers imbalance diagnostics, WOE/IV feature selection, and a production-style Logistic Regression pipeline aligned with industry scoring conventions.
+
+- Diagnosed a severe class imbalance (IR = 11.4:1, 307,511 records) using a structured four-diagnostic framework: imbalance severity, Events Per Variable (EPV = 310.3), KS-based feature overlap analysis, and PCA/UMAP projections
+- Applied Borderline-SMOTE to resolve zero-prediction collapse in the baseline classifier; confirmed recovery of minority class detection across Precision, Recall, F1, and G-Mean
+- Engineered five domain-driven credit features (credit burden, repayment affordability, loan duration, borrower age, employment tenure); validated each using KS statistics and a correlation heatmap against the default target
+- Applied Weight of Evidence encoding and Information Value filtering; retained three features (CREDIT_TERM, AGE_YEARS, YEARS_EMPLOYED) with IV ranging from 0.045 to 0.105, dropping features below the 0.02 predictive power threshold
+- Final pipeline (imputation, scaling, Borderline-SMOTE, Logistic Regression) achieves ROC-AUC = 0.584 and Gini = 0.169 on a 25% held-out test set, reflecting an intentional trade-off between interpretability and raw accuracy consistent with regulatory scorecard standards
+- Stack: `Python` `Scikit-learn` `imbalanced-learn` `UMAP` `Pandas` `NumPy` `Matplotlib` `Seaborn`
+
+---
+
 ### [Algorithmic Strategy Backtester](https://github.com/bckenz-ai/algorithmic-strategy-backtester)
 > A from-scratch backtesting engine for a 50/200-day SMA crossover strategy on EUR/USD. Built for signal transparency, look-ahead bias prevention, and honest performance analysis.
 
@@ -75,10 +87,10 @@ Data-driven professional pursuing a B.S. in Data Science and Analytics at the Un
 ## Skills
 
 **Data & Analytics**
-`Python` `SQL` `Pandas` `Scikit-learn` `NLTK` `spaCy` `Data Visualization` `Technical & Fundamental Analysis` `Consumer Analytics`
+`Python` `SQL` `Pandas` `Scikit-learn` `imbalanced-learn` `NLTK` `spaCy` `Data Visualization` `Technical & Fundamental Analysis` `Consumer Analytics` `Credit Risk Modeling` `WOE/IV Analysis`
 
 **Finance & Operations**
-`Budgeting & Forecasting` `Financial Recordkeeping` `Expense Tracking` `Cash Flow Management` `Quantitative Strategy Development` `Backtesting`
+`Budgeting & Forecasting` `Financial Recordkeeping` `Expense Tracking` `Cash Flow Management` `Quantitative Strategy Development` `Backtesting` `Scorecard Development`
 
 **Development**
 `PHP` `Google Apps Script` `JavaScript` `GitHub Actions` `Streamlit` `REST APIs` `Google Sheets API` `Backtrader`
