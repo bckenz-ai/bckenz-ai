@@ -23,6 +23,7 @@ Data-driven professional pursuing a B.S. in Data Science and Analytics at the Un
 ## Projects
 
 ### [Credit Risk Scorecard](https://github.com/bckenz-ai/credit-risk-scorecard)
+> [View notebook on Google Colab](https://colab.research.google.com/github/bckenz-ai/credit-risk-scorecard/blob/main/Credit_Risk_Scorecard.ipynb)
 > An end-to-end credit risk scorecard built on the Home Credit Default Risk dataset. Covers imbalance diagnostics, WOE/IV feature selection, and a production-style Logistic Regression pipeline aligned with industry scoring conventions.
 
 - Diagnosed a severe class imbalance (IR = 11.4:1, 307,511 records) using a structured four-diagnostic framework: imbalance severity, Events Per Variable (EPV = 310.3), KS-based feature overlap analysis, and PCA/UMAP projections
