@@ -23,8 +23,7 @@ Data-driven professional pursuing a B.S. in Data Science and Analytics at the Un
 ## Projects
 
 ### [Credit Risk Scorecard](https://github.com/bckenz-ai/credit-risk-scorecard)
-> [View notebook on Google Colab](https://colab.research.google.com/github/bckenz-ai/credit-risk-scorecard/blob/main/Credit_Risk_Scorecard.ipynb)
-
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)]((https://colab.research.google.com/github/bckenz-ai/credit-risk-scorecard/blob/main/Credit_Risk_Scorecard.ipynb))
 > An end-to-end credit risk scorecard built on the Home Credit Default Risk dataset. Covers imbalance diagnostics, WOE/IV feature selection, and a production-style Logistic Regression pipeline aligned with industry scoring conventions.
 
 - Diagnosed a severe class imbalance (IR = 11.4:1, 307,511 records) using a structured four-diagnostic framework: imbalance severity, Events Per Variable (EPV = 310.3), KS-based feature overlap analysis, and PCA/UMAP projections
@@ -37,6 +36,7 @@ Data-driven professional pursuing a B.S. in Data Science and Analytics at the Un
 ---
 
 ### [Algorithmic Strategy Backtester](https://github.com/bckenz-ai/algorithmic-strategy-backtester)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bckenz-ai/algorithmic-strategy-backtester/blob/main/Algorithmic_Strategy_Backtester.ipynb)
 > A from-scratch backtesting engine for a 50/200-day SMA crossover strategy on EUR/USD. Built for signal transparency, look-ahead bias prevention, and honest performance analysis.
 
 - Implements a 50/200-day SMA crossover strategy on EUR/USD (2020–2026); long-only signal generated on golden cross, flat on death cross
