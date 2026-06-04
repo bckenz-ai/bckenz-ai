@@ -41,7 +41,7 @@ Data-driven professional pursuing a B.S. in Data Science and Analytics at the Un
 
 - Implements a 50/200-day SMA crossover strategy on EUR/USD (2020–2026); long-only signal generated on golden cross, flat on death cross
 - Uses log returns throughout and applies `.shift(1)` to all position columns to eliminate look-ahead bias; transaction costs of 0.1% per trade deducted at entry/exit
-- Computes a full performance tearsheet: Total Return, annualized Sharpe Ratio (vs. ECB Euro Short-Term Rate), Maximum Drawdown, Win Rate, and trade count — with written interpretation of each metric
+- Computes a full performance tearsheet: Total Return, annualized Sharpe Ratio (vs. ECB Euro Short-Term Rate), Maximum Drawdown, Win Rate, and trade count, with written interpretation of each metric
 - Concludes that the strategy underperforms buy-and-hold on choppy, range-bound EUR/USD due to whipsaw conditions; contextualizes results against institutional thresholds (e.g., 10–20% MDD limits, 30-trade statistical minimums)
 - Stack: `Python` `yfinance` `Pandas` `NumPy` `Matplotlib` `Backtrader`
 
@@ -52,15 +52,15 @@ Data-driven professional pursuing a B.S. in Data Science and Analytics at the Un
 > A Python CLI tool for fundamental analysis of publicly traded companies. Fetches financial statements via yfinance, computes 12+ ratios across profitability, liquidity, solvency, and valuation, and generates three visual reports to assess financial health.
 
 - Implements a defensive data layer with browser session emulation, normalized index key resolution, and hard-stop error handling to support international tickers (including PSE-listed stocks via yfinance)
-- Computes 12 financial ratios grouped by category — profitability (Gross Margin, Net Margin, EBITDA Margin, ROE, ROA), liquidity/solvency (Current Ratio, Quick Ratio, D/E, D/A), and valuation (P/E, P/B, EV/EBITDA, FCF Yield)
+- Computes 12 financial ratios grouped by category: profitability (Gross Margin, Net Margin, EBITDA Margin, ROE, ROA), liquidity/solvency (Current Ratio, Quick Ratio, D/E, D/A), and valuation (P/E, P/B, EV/EBITDA, FCF Yield)
 - Scores each category on a 0–2 scale using configurable thresholds and assigns an overall health grade (Strong / Fair / Weak), with a separate multi-year ratio trend chart to contextualize single-period scores
-- Full AAPL analysis included in notebook with qualified interpretation of a "Weak" model grade against Apple's deliberate capital structure strategy — distinguishing scoring model limitations from actual business health
+- Full AAPL analysis included in notebook with qualified interpretation of a "Weak" model grade against Apple's deliberate capital structure strategy, distinguishing scoring model limitations from actual business health
 - Stack: `Python` `yfinance` `Pandas` `NumPy` `Matplotlib` `requests`
 
 ---
 
 ### [Machine Learning Projects](https://github.com/bckenz-ai/machine-learning-projects)
-> A collection of applied machine learning notebooks covering supervised learning, unsupervised learning, NLP, and model diagnostics — with real-world Philippine and international datasets.
+> A collection of applied machine learning notebooks covering supervised learning, unsupervised learning, NLP, and model diagnostics, with real-world Philippine and international datasets.
 
 - Covers ensemble methods (Random Forest, AdaBoost, Gradient Boosting), regularization, dimensionality reduction (PCA, t-SNE, UMAP), class imbalance handling, and NLP (sentiment analysis, text clustering, topic modeling)
 - Applied to datasets including Telco Churn, IMDB reviews, 2022 Philippine election results, and U.S. Census income data
