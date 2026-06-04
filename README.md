@@ -47,6 +47,18 @@ Data-driven professional pursuing a B.S. in Data Science and Analytics at the Un
 
 ---
 
+### [Financial Statement Analyzer](https://github.com/bckenz-ai/financial-analyzer)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bckenz-ai/financial-analyzer/blob/main/notebooks/exploration.ipynb)
+> A Python CLI tool for fundamental analysis of publicly traded companies. Fetches financial statements via yfinance, computes 12+ ratios across profitability, liquidity, solvency, and valuation, and generates three visual reports to assess financial health.
+
+- Implements a defensive data layer with browser session emulation, normalized index key resolution, and hard-stop error handling to support international tickers (including PSE-listed stocks via yfinance)
+- Computes 12 financial ratios grouped by category — profitability (Gross Margin, Net Margin, EBITDA Margin, ROE, ROA), liquidity/solvency (Current Ratio, Quick Ratio, D/E, D/A), and valuation (P/E, P/B, EV/EBITDA, FCF Yield)
+- Scores each category on a 0–2 scale using configurable thresholds and assigns an overall health grade (Strong / Fair / Weak), with a separate multi-year ratio trend chart to contextualize single-period scores
+- Full AAPL analysis included in notebook with qualified interpretation of a "Weak" model grade against Apple's deliberate capital structure strategy — distinguishing scoring model limitations from actual business health
+- Stack: `Python` `yfinance` `Pandas` `NumPy` `Matplotlib` `requests`
+
+---
+
 ### [Machine Learning Projects](https://github.com/bckenz-ai/machine-learning-projects)
 > A collection of applied machine learning notebooks covering supervised learning, unsupervised learning, NLP, and model diagnostics — with real-world Philippine and international datasets.
 
@@ -89,10 +101,10 @@ Data-driven professional pursuing a B.S. in Data Science and Analytics at the Un
 ## Skills
 
 **Data & Analytics**
-`Python` `SQL` `Pandas` `Scikit-learn` `imbalanced-learn` `NLTK` `spaCy` `Data Visualization` `Technical & Fundamental Analysis` `Consumer Analytics` `Credit Risk Modeling` `WOE/IV Analysis`
+`Python` `SQL` `Pandas` `Scikit-learn` `imbalanced-learn` `NLTK` `spaCy` `Data Visualization` `Technical & Fundamental Analysis` `Financial Ratio Analysis` `Consumer Analytics` `Credit Risk Modeling` `WOE/IV Analysis`
 
 **Finance & Operations**
-`Budgeting & Forecasting` `Financial Recordkeeping` `Expense Tracking` `Cash Flow Management` `Quantitative Strategy Development` `Backtesting` `Scorecard Development`
+`Budgeting & Forecasting` `Financial Recordkeeping` `Expense Tracking` `Cash Flow Management` `Fundamental Analysis` `Quantitative Strategy Development` `Backtesting` `Scorecard Development`
 
 **Development**
 `PHP` `Google Apps Script` `JavaScript` `GitHub Actions` `Streamlit` `REST APIs` `Google Sheets API` `Backtrader`
