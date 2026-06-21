@@ -35,6 +35,19 @@ Data-driven professional pursuing a B.S. in Data Science and Analytics at the Un
 
 ---
 
+### [Macro & Credit Risk ETL Pipeline](https://github.com/bckenz-ai/macro-risk-pipeline) &nbsp;·&nbsp; [Live Dashboard](https://public.tableau.com/views/macro-risk-dashboard/Dashboard1?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+> An automated ETL pipeline that extracts macroeconomic and credit risk indicators from the FRED API, validates and loads them into PostgreSQL on a daily schedule, and surfaces the results through an interactive Tableau dashboard.
+
+- Built a FRED API extraction layer for five macroeconomic and credit risk indicators (SOFR, CPI, GDP, credit card delinquency, bank prime rate) with automatic retry and exponential backoff for transient network failures
+- Implemented explicit data validation to detect and drop FRED's missing-value markers before they could corrupt downstream calculations
+- Loaded validated records into PostgreSQL using an idempotent UPSERT pattern keyed on metric and observation date, verified to produce zero duplicate rows across repeated runs
+- Automated daily extraction and loading via GitHub Actions on a scheduled cron trigger, with secrets managed through encrypted repository variables
+- Designed SQL views to calculate a combined financial strain index using Z-scores across multiple risk indicators, surfaced through a published Tableau dashboard
+- Covered core cleaning and retry logic with a pytest suite using mocked API responses
+- Stack: `Python` `PostgreSQL` `GitHub Actions` `Tableau` `pytest` `psycopg2` `pandas` `requests`
+
+---
+
 ### [Algorithmic Strategy Backtester](https://github.com/bckenz-ai/algorithmic-strategy-backtester)
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bckenz-ai/algorithmic-strategy-backtester/blob/main/Algorithmic_Strategy_Backtester.ipynb)
 > A from-scratch backtesting engine for a 50/200-day SMA crossover strategy on EUR/USD. Built for signal transparency, look-ahead bias prevention, and honest performance analysis.
