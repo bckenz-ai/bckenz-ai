@@ -42,7 +42,10 @@ Data-driven professional pursuing a B.S. in Data Science and Analytics at the Un
 - Implemented explicit data validation to detect and drop FRED's missing-value markers before they could corrupt downstream calculations
 - Loaded validated records into PostgreSQL using an idempotent UPSERT pattern keyed on metric and observation date, verified to produce zero duplicate rows across repeated runs
 - Automated daily extraction and loading via GitHub Actions on a scheduled cron trigger, with secrets managed through encrypted repository variables
-- Designed SQL views to calculate a combined financial strain index using Z-scores across multiple risk indicators, surfaced through a published Tableau dashboard
+- Designed SQL views to calculate a combined financial strain index using
+Z-scores across multiple risk indicators, implementing a forward-fill
+pattern to align quarterly and daily reporting frequencies before
+Z-score computation
 - Covered core cleaning and retry logic with a pytest suite using mocked API responses
 - Stack: `Python` `PostgreSQL` `GitHub Actions` `Tableau` `pytest` `psycopg2` `pandas` `requests`
 
